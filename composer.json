@@ -1,0 +1,22 @@
+{
+    "name": "pyma/phpcourse",
+    "description": "Basic PHP course",
+    "type": "project",
+    "require": {
+        "illuminate/database": "5.5",
+        "dompdf/dompdf": "^0.8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/" 
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pedrojosecruzguevara",
+            "email": "pedro_incora@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
